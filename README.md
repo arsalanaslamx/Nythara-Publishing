@@ -1,11 +1,40 @@
 # Nythara Publishing
 
-An editorial-style responsive homepage for Nythara Publishing, built with plain HTML, CSS, and JavaScript for GitHub Pages.
+A responsive, editorial-style multi-page website for Nythara Publishing, built with plain HTML, CSS, and JavaScript.
+
+## Pages
+
+- `index.html` — homepage
+- `services.html` — service overview
+- `ghostwriting.html`
+- `editing.html`
+- `publishing-support.html`
+- `book-design.html`
+- `book-formatting.html`
+- `book-marketing.html`
+- `audiobook-production.html`
+- `author-website-design.html`
+- `about.html`
+- `portfolio.html` — intentionally does not claim unverified client work
+- `careers.html`
+- `contact.html`
 
 ## Publish with GitHub Pages
+
 1. Open **Settings → Pages** in this repository.
 2. Under **Build and deployment**, choose **Deploy from a branch**.
-3. Select branch `main` and folder `/ (root)`, then save.
-4. Once deployment completes, the site should be available at `https://arsalanaslamx.github.io/Nythara-Publishing/`.
+3. Select branch `main` and folder `/(root)`, then save.
+4. Wait for GitHub Pages to finish deploying.
 
-The contact CTA currently opens an email draft; replace the placeholder address with the real business inbox before launch.
+Expected URL: https://arsalanaslamx.github.io/Nythara-Publishing/
+
+## Before launch
+
+- Replace `hello@nytharapublishing.com` in `index.html` and `contact.html` with the confirmed business email address.
+- Confirm service descriptions, scope, terms, and deliverables reflect what the business can actually provide.
+- GitHub Pages hosts static files only. The current contact action opens the visitor's email app; no form submissions are stored by this website.
+- Connect a custom domain only after choosing and registering one.
+
+## Technology
+
+Plain HTML, CSS, and JavaScript. No build step or framework is required.
